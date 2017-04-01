@@ -7,6 +7,30 @@ $navbar-default-bg: black;
   text-align: center;
 }
 
+.jumbotron {
+  background-image: asset-url('background.png');
+  background-size: cover;
+  height: 300px;
+}
+
+.jumbotron h1,h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  background-color: black;  
+  
+}
+.btn-xlarge:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
 #logo {
   float: left;
   fontsize: 1.7em;
