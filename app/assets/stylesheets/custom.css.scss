@@ -39,7 +39,7 @@ $navbar-default-bg: black;
 }
 
 .btn-xlarge {
-  background-color: black;  
+  background-color: #073B15;  
   
 }
 
@@ -60,6 +60,11 @@ $navbar-default-bg: black;
   font-weight: bold;
 }
 
+.error {
+   color: red;
+   }
+
+
 #logo {
   float: left;
   fontsize: 1.7em;
@@ -72,4 +77,8 @@ $navbar-default-bg: black;
 #logo:hover {
   color: #fff;
   text-decoration: none;
+}
+
+.colormatch a {
+  color:  #073B15;
 }
